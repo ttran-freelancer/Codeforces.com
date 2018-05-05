@@ -25,6 +25,8 @@ long long sol(int index) {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     // freopen("B.in", "r", stdin);
     long long res = 0;
     for (int i = 0; i < 14; ++i) {

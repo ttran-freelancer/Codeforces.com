@@ -16,6 +16,8 @@ void sol(string str) {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     // freopen("A.in", "r", stdin);
     int n;
     string str;
