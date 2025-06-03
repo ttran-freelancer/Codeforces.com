@@ -13,14 +13,12 @@ void solve() {
     pq.push(0);
 
     int ans = 0;
-    int e = 0;
     do {
-        int n = pq.top();
+        int e = pq.top();
         pq.pop();
-        if (e == x) break;
-        pq.push(min(2*n + 1, x));
-        e = n;
+        pq.push(min(2*e + 1, x));
         ans++;
+        if (e == x) break;
     } while (true);
     cout << ans << "\n";
 }
